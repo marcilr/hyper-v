@@ -4,3 +4,11 @@ Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Hyper-V virtualization under Windows 10
+
+
+Tue Aug  6 12:14:17 AKDT 2019
+=============================
+Tried to configure Hyper-v on windwos 10 enterprise 
+for virtualization.  Took an inordinate amount of time 
+and was uncessful.  Convinced this is not a benefit of
+windows 10 enterprise.
