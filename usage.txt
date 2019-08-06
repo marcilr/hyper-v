@@ -1,0 +1,55 @@
+usage.txt
+Created Tue Aug  6 09:07:37 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Usage
+
+Didn't get windows 10 to virtualize.  Saving this file for completeness.
+
+
+I. Verify windows version.  The SOA OIT DNR workstation is running
+64-bit Windows 10 Enterprise:
+
+  1. Winkey + S - search for control panel
+  2. Open system
+  3. Observe
+     windows edition:        Windows 10 Enterprise
+     processor:              Intel Core i7-6700 cpu 3.40Ghz 3.41GHz
+     installed memory (RAM): 16.0GB (15.9 usable)
+     system type:            64-bit operating system, x64-based processor
+
+
+II. Enable virtualization in bios.  On Dell Optiplex 7040 rebooted and
+held down F2 to get into bios.  Found:
+
+Virtualization
+x Enable Intel Virtualization Technology
+x Enable VT fir Direct I/O
+
+Virualization settings in bios good by default
+
+III. Setting up Hyper-V
+1. Search for Control Panel
+2. Open Programs and Features
+  click Turn Windows features on or off (upper left)
+
+3. At Windows Feature popup window select Hyper-V and all subitems:
+x Hyper-V
+  x Hyper-V Management Tools
+    x Hyper-V GUI Management TOols
+    x Hyper-V Module for Windows PowerShell
+  x Hyper-V Platform
+    Hyper-V Hypervisor
+    Hyper-V Services
+
+This configuration will install and configure Hyper-V then confirm changes
+and restart.
+
+--www.tutorialspoint.com/windows10/windows10_virtualization
+
+
+Links
+=====
+Windows 10 - Virtualization
+https://www.tutorialspoint.com/windows10/windows10_virtualization
