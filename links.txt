@@ -1,0 +1,12 @@
+links.txt
+Created Tue Aug  6 08:38:29 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Hyper-V related links
+
+
+Links
+=====
+Windows 10 - Virtualization
+https://www.tutorialspoint.com/windows10/windows10_virtualization
